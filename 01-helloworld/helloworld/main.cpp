@@ -9,12 +9,13 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    
+
     int i = 10;
-    
+
     // insert code here...
     std::cout << "hogehoge \n";
     std::cout << "hello world! \n";
     std::cout << i << "\n";
     return 0;
+    
 }
