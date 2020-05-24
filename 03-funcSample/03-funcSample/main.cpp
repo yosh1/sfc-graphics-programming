@@ -17,12 +17,24 @@ void sayGoodbye() {
 }
 
 void sayNum(int n) {
-    std::cout << n + "\n";
+    std::cout << n << "\n";
+}
+
+void repertHello(int m) {
+    for (int i=0; i < m; i++) {
+        std::cout << "Hello! \n";
+    }
+}
+
+int returnInt(int a) {
+    return a;
 }
 
 int main(int argc, const char * argv[]) {
 //    sayHello();
 //    sayGoodbye();
-    sayNum(5);
+//    sayNum(5);
+//    repertHello(5);
+    returnInt(5);
     return 0;
 }
