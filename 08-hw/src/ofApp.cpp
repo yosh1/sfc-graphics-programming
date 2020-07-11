@@ -15,7 +15,7 @@ void ofApp::setup(){
     
 }
 
-//--------------------------------------------------------------
+//---------------------------/Users/yoshi1125hisa/Documents/of_v0.11.0_osx_release/apps/myApps/10-array-----------------------------------
 void ofApp::update(){
     //update position (new position = current position + velocity)
     for(int i=0; i<num; i++){
